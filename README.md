@@ -33,6 +33,24 @@ c) Write a function int* search(int* array, const int& size) that takes input va
 
 d) Write a function void deallocateMemory(int* array, const int& size) that deallocates all the memory.
 
+### Q9.cpp
+a) Write a function int** AllocateMemory(int& rows, int& cols) that takes size of matrix (rows and columns) from user, allocates memory for the matrix and return its pointer.
+
+b) Write a function void InputMatrix(int** matrix, const int rows, const int cols) which takes input the values in matrix from user (console).
+
+c) Write a function void DisplayMatrix(int** matrix, const int& rows, const int& cols) that displays the matrix in proper format.
+
+d) Write a function called maxCol that takes as parameters a pointer to a 2D array and its dimensions. It should return the largest element in each column of the array. Since there is more than one column in 2D array, you have to return a dynamic array that contains largest of each column.
+
+e) Write a function void DeallocateMemory(int** matrix, const int& rows) that deallocates all the memory.
+
+### Q10.cpp
+a) Declare a string “- This is, my Object Oriented Programming Lab.”
+
+b) Tokenize the above string using strtok function and store it in a dynamic char array.
+
+c) Print dynamic char array on screen.
+
 ### sum.cpp
 Write a function void sum(int *ptr1, int *ptr2). It will receives the two pointer integer variables and print the sum of these variables on screen.
 
